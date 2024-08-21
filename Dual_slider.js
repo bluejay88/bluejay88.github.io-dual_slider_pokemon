@@ -4,12 +4,12 @@ const sections = [
         color2: 'black',
         image: '111.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Ceruledge',
             h1FontSize: '6vw',
             p2: 'Ceruledge dons an old set of armor steeped in grudges and wields blades made of fire and ghost energy. In battle, these blades transform into great swords to increase Ceruledge’s power. Cuts from these great swords leave wounds from which life energy will flow.',
-            p2FontSize: '1.99vw',
+            p2FontSize: '1.25vw',
             bottomH1: 'Ceruledge',
             bottomH1FontSize: '12vw'
         },
@@ -17,15 +17,15 @@ const sections = [
         clickAnimation: 'scale(1.1)'  // Example on-click animation
     },
     {
-        color1: '#feca57',
-        color2: '#54a0ff',
+        color1: '#702963',
+        color2: '#FF5733',
         image: '222.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Snorlax',
             h1FontSize: '6vw',
-            p2: "Snorlax’s typical day consists of nothing more than eating and sleeping. It is such a docile POKéMON  that there are children who use its big belly as a place to play.",
+            p2: "Snorlax’s typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon  that there are children who use its big belly as a place to play.",
             p2FontSize: '1.75vw',
             bottomH1: 'Snorlax',
             bottomH1FontSize: '12vw'
@@ -38,7 +38,7 @@ const sections = [
         color2: 'jackfruityellow',
         image: '333.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Bellibot',
             h1FontSize: '6vw',
@@ -55,7 +55,7 @@ const sections = [
         color2: '#f368e0',
         image: '444.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Farigiraf',
             h1FontSize: '6vw',
@@ -72,7 +72,7 @@ const sections = [
         color2: '#ff6b6b',
         image: '77.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Bellossom',
             h1FontSize: '6vw',
@@ -89,7 +89,7 @@ const sections = [
         color2: 'Black',
         image: '66.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Gengar',
             h1FontSize: '6vw',
@@ -107,7 +107,7 @@ const sections = [
         color2: 'Navy',
         image: 'pikapika222.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Pikachu',
             h1FontSize: '6vw',
@@ -117,15 +117,15 @@ const sections = [
             bottomH1FontSize: '12vw'
         },
         hoverEffect: 'saturate(2)',
-        clickAnimation: 'scale(1.5)'  // Example on-click animation
+        clickAnimation: 'scale(1.2) translateY(-10px) translateY(10px)'  // Example on-click animation
     },
     // New 9th slider
     {
-        color1: 'tomato',
-        color2: 'Teal',
+        color1: '#880808',
+        color2: 'white',
         image: '1111.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Charizard',
             h1FontSize: '6vw',
@@ -134,7 +134,7 @@ const sections = [
             bottomH1: 'Charizard',
             bottomH1FontSize: '12vw'
         },
-        hoverEffect: 'hue-rotate(90deg)',
+        hoverEffect: 'sepia(1);',
         clickAnimation: 'translateX(-10px) scale(1.1)'  // Example on-click animation
     },
     // New 10th slider
@@ -143,7 +143,7 @@ const sections = [
         color2: 'Gray',
         image: '99.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Mewtwo',
             h1FontSize: '6vw',
@@ -153,7 +153,7 @@ const sections = [
             bottomH1FontSize: '12vw'
         },
         hoverEffect: 'brightness(0.7)',
-        clickAnimation: 'translateY(10px) scale(1.1)'  // Example on-click animation
+        clickAnimation: 'translateY(10px) scale(1.1) translateX(60px)'  // Example on-click animation
     },
     // New 11th slider
     {
@@ -161,11 +161,11 @@ const sections = [
         color2: 'lightcoral',
         image: '1010.png',
         text: {
-            p1: "Who's that Pokemon?",
+            p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
             h1: 'Dragonite',
             h1FontSize: '6vw',
-            p2: "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
+            p2: "Dragonite is known to have an extremely kind-hearted nature. It is able to circle the globe in just 16 hours. Despite its bulky appearance, Dragonite is very intelligent and can understand human speech.",
             p2FontSize: '1.99vw',
             bottomH1: 'Dragonite',
             bottomH1FontSize: '12vw'
@@ -179,10 +179,10 @@ const sections = [
         color2: 'gold',
         image: 'gholdengo.png',
         text: {
-            p1: "Who's that Pokemon?",
-            p1FontSize: '2vw',
+            p1: "Who's that Pokémon?",
+            p1FontSize: '4vw',
             h1: 'Gholdengo',
-            h1FontSize: '4vw',
+            h1FontSize: '6vw',
             p2: "Gholdengo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
             p2FontSize: '1.5vw',
             bottomH1: 'Gholdengo',
@@ -223,13 +223,13 @@ function showLandingPage() {
     const p2Element = document.querySelector('.text-content p:last-of-type');
     const bottomH1Element = document.querySelector('.bottom-heading h1');
 
-    p1Element.textContent = 'Welcome to the Pokemon Dual Section Slider Project!';
+    p1Element.textContent = 'Welcome to the Pokémon Dual Section Slider Project!';
     p1Element.style.fontSize = '3vw';
 
-    h1Element.textContent = "Gotta Catch'em All";
+    h1Element.textContent = "Gotta Scroll'em All";
     h1Element.style.fontSize = '5vw';
 
-    p2Element.textContent = 'Use the slider to discover more about your favorite Pokemon.';
+    p2Element.textContent = 'Use the slider to discover more about your favorite Pokémon.';
     p2Element.style.fontSize = '1.25vw';
 
     bottomH1Element.textContent = 'Start Your Journey';
