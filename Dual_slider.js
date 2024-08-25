@@ -11,10 +11,11 @@ const sections = [
             p2: 'Ceruledge dons an old set of armor steeped in grudges and wields blades made of fire and ghost energy. In battle, these blades transform into great swords to increase Ceruledge’s power. Cuts from these great swords leave wounds from which life energy will flow.',
             p2FontSize: '1.25vw',
             bottomH1: 'Ceruledge',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0937' // Custom number for h3
         },
         hoverEffect: 'brightness(1.2)',
-        clickAnimation: 'scale(1.1)'  // Example on-click animation
+        clickAnimation: 'scale(1.1)'
     },
     {
         color1: '#702963',
@@ -25,13 +26,14 @@ const sections = [
             p1FontSize: '4vw',
             h1: 'Snorlax',
             h1FontSize: '6vw',
-            p2: "Snorlax’s typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon  that there are children who use its big belly as a place to play.",
+            p2: "Snorlax’s typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its big belly as a place to play.",
             p2FontSize: '1.75vw',
             bottomH1: 'Snorlax',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0143' // Custom number for h3
         },
         hoverEffect: 'sepia(1)',
-        clickAnimation: 'rotate(10deg)'  // Example on-click animation
+        clickAnimation: 'rotate(10deg)'
     },
     {
         color1: 'LimeGreen',
@@ -45,10 +47,11 @@ const sections = [
             p2: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
             p2FontSize: '1.99vw',
             bottomH1: 'Bellibot',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0939' // Custom number for h3
         },
         hoverEffect: 'contrast(150%)',
-        clickAnimation: 'rotate(10deg)'  // Example on-click animation
+        clickAnimation: 'rotate(10deg)'
     },
     {
         color1: '#48dbfb',
@@ -62,10 +65,11 @@ const sections = [
             p2: "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
             p2FontSize: '1.99vw',
             bottomH1: 'Farigiraf',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0981' // Custom number for h3
         },
         hoverEffect: 'grayscale(100%)',
-        clickAnimation: 'skewX(5deg)'  // Example on-click animation
+        clickAnimation: 'skewX(5deg)'
     },
     {
         color1: '#1dd1a1',
@@ -79,10 +83,11 @@ const sections = [
             p2: "When Bellossom gets exposed to plenty of sunlight, the leaves ringing its body begin to spin around. This Pokémon’s dancing is renowned in the southern lands.",
             p2FontSize: '1.99vw',
             bottomH1: 'Bellossom',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0182' // Custom number for h3
         },
         hoverEffect: 'invert(1)',
-        clickAnimation: 'scale(1.1) rotate(-5deg)'  // Example on-click animation
+        clickAnimation: 'scale(1.1) rotate(-5deg)'
     },
     {
         color1: 'Purple',
@@ -96,12 +101,12 @@ const sections = [
             p2: "Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a GENGAR running past you, pretending to be your shadow.",
             p2FontSize: '1.99vw',
             bottomH1: 'Gengar',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0094' // Custom number for h3
         },
         hoverEffect: 'blur(2px)',
-        clickAnimation: 'rotate(15deg) scale(1.5)'  // Example on-click animation
+        clickAnimation: 'rotate(15deg) scale(1.5)'
     },
-    // New 8th slider
     {
         color1: 'DarkOrange',
         color2: 'Navy',
@@ -114,16 +119,16 @@ const sections = [
             p2: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
             p2FontSize: '1.99vw',
             bottomH1: 'Pikachu',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0025' // Custom number for h3
         },
         hoverEffect: 'saturate(2)',
-        clickAnimation: 'scale(1.2) translateY(-10px) translateY(10px)'  // Example on-click animation
+        clickAnimation: 'scale(1.2) translateY(-10px) translateY(10px)'
     },
-    // New 9th slider
     {
         color1: '#880808',
         color2: 'white',
-        image: '1111.png',
+        image: '11006 (1).png',
         text: {
             p1: "Who's that Pokémon?",
             p1FontSize: '4vw',
@@ -132,12 +137,12 @@ const sections = [
             p2: "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything.",
             p2FontSize: '1.99vw',
             bottomH1: 'Charizard',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0006' // Custom number for h3
         },
-        hoverEffect: 'sepia(1);',
-        clickAnimation: 'translateX(-10px) scale(1.1)'  // Example on-click animation
+        hoverEffect: 'sepia(1)',
+        clickAnimation: 'translateX(-10px) scale(1.1)'
     },
-    // New 10th slider
     {
         color1: 'rebeccapurple',
         color2: 'Gray',
@@ -150,12 +155,12 @@ const sections = [
             p2: "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
             p2FontSize: '1.99vw',
             bottomH1: 'Mewtwo',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0150' // Custom number for h3
         },
         hoverEffect: 'brightness(0.7)',
-        clickAnimation: 'translateY(10px) scale(1.1) translateX(60px)'  // Example on-click animation
+        clickAnimation: 'translateY(10px) scale(1.1) translateX(60px)'
     },
-    // New 11th slider
     {
         color1: 'skyblue',
         color2: 'lightcoral',
@@ -168,12 +173,12 @@ const sections = [
             p2: "Dragonite is known to have an extremely kind-hearted nature. It is able to circle the globe in just 16 hours. Despite its bulky appearance, Dragonite is very intelligent and can understand human speech.",
             p2FontSize: '1.99vw',
             bottomH1: 'Dragonite',
-            bottomH1FontSize: '12vw'
+            bottomH1FontSize: '12vw',
+            h3Text: 'Pokédex Entry #0149' // Custom number for h3
         },
         hoverEffect: 'brightness(0.7)',
-        clickAnimation: 'translateY(10px) scale(1.1)'  // Example on-click animation
+        clickAnimation: 'translateY(10px) scale(1.1)'
     },
-    // New 12th slider
     {
         color1: 'rebeccapurple',
         color2: 'gold',
@@ -186,10 +191,11 @@ const sections = [
             p2: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
             p2FontSize: '1.5vw',
             bottomH1: 'Gholdengo',
-            bottomH1FontSize: '10vw'
+            bottomH1FontSize: '10vw',
+            h3Text: 'Pokédex Entry #1000' // Custom number for h3
         },
         hoverEffect: 'brightness(0.7)',
-        clickAnimation: 'translateY(10px) scale(1.1)'  // Example on-click animation
+        clickAnimation: 'translateY(10px) scale(1.1)'
     }
 ];
 
@@ -206,7 +212,7 @@ function showLandingPage() {
 
     // Apply hover effect to the landing page image
     imgElement.onmouseover = function () {
-        imgElement.style.filter = 'brightness(0.8)';  // Example hover effect
+        imgElement.style.filter = 'brightness(0.8)';
     };
     imgElement.onmouseout = function () {
         imgElement.style.filter = 'none';
@@ -221,6 +227,7 @@ function showLandingPage() {
     const p1Element = document.querySelector('.text-content p:first-of-type');
     const h1Element = document.querySelector('.text-content h1');
     const p2Element = document.querySelector('.text-content p:last-of-type');
+    const bottomH3Element = document.querySelector('.bottom-heading h3');
     const bottomH1Element = document.querySelector('.bottom-heading h1');
 
     p1Element.textContent = 'Welcome to the Pokémon Dual Section Slider Project!';
@@ -232,13 +239,16 @@ function showLandingPage() {
     p2Element.textContent = 'Use the slider to discover more about your favorite Pokémon.';
     p2Element.style.fontSize = '1.25vw';
 
+    bottomH3Element.textContent = '1025 Pokémon In Total';  // Default slider number for the landing page
+    bottomH3Element.style.fontSize = '4vw';
+
     bottomH1Element.textContent = 'Start Your Journey';
     bottomH1Element.style.fontSize = '7.25vw';
 }
 
 function changeSlide(index) {
     if (index === 0) {
-        showLandingPage();  // Show landing page if index 0
+        showLandingPage();
         return;
     }
 
@@ -251,7 +261,7 @@ function changeSlide(index) {
     imgElement.src = sections[index - 1].image;
     imgElement.style.width = '100%';
     imgElement.style.height = 'auto';
-    imgElement.style.transition = 'filter 0.5s ease, transform 0.3s ease';  // Smooth transition for hover and click effects
+    imgElement.style.transition = 'filter 0.5s ease, transform 0.3s ease';
 
     // Apply unique hover effect
     imgElement.onmouseover = function () {
@@ -271,6 +281,7 @@ function changeSlide(index) {
     const p1Element = document.querySelector('.text-content p:first-of-type');
     const h1Element = document.querySelector('.text-content h1');
     const p2Element = document.querySelector('.text-content p:last-of-type');
+    const bottomH3Element = document.querySelector('.bottom-heading h3');  // Update the h3 element for slider number
     const bottomH1Element = document.querySelector('.bottom-heading h1');
 
     p1Element.textContent = sections[index - 1].text.p1;
@@ -282,9 +293,14 @@ function changeSlide(index) {
     p2Element.textContent = sections[index - 1].text.p2;
     p2Element.style.fontSize = sections[index - 1].text.p2FontSize;
 
+    bottomH3Element.textContent = sections[index - 1].text.h3Text;  // Update h3 with the custom number for each slide
+    bottomH3Element.style.fontSize = '3vw';
+
     bottomH1Element.textContent = sections[index - 1].text.bottomH1;
     bottomH1Element.style.fontSize = sections[index - 1].text.bottomH1FontSize;
 }
 
 // Initialize landing page on load
 showLandingPage();
+
+
