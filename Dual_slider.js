@@ -183,7 +183,7 @@ const sections = [
             p1FontSize: '4vw',
             h1: 'Gholdengo',
             h1FontSize: '6vw',
-            p2: "Gholdengo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
+            p2: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
             p2FontSize: '1.5vw',
             bottomH1: 'Gholdengo',
             bottomH1FontSize: '10vw'
